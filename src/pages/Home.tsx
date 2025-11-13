@@ -40,7 +40,7 @@ function Home() {
               </h1>
               <h1 className="pl-4 md:pl-11 text-3xl md:text-4xl">
                 I'M
-                <strong className="text-primary"> EZRA</strong> FIKADU
+                <strong className="text-primary"> HENRY</strong> ODUNZE
               </h1>
               <div className="p-4 md:p-12 text-left">
                 <Type />

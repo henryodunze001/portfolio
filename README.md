@@ -5,18 +5,18 @@
 <img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/f35403c9-82e0-4732-8df1-72810e93d574" />
 
 <h4>
-  Portfolio Website for Ezra
-  <a href="https://ezdev21.vercel.app/" target="_blank">https://ezdev21.vercel.app</a>
+  Portfolio Website for Henry
+  <a href="https://henryodunze.vercel.app/" target="_blank">https://henryodunze.vercel.app</a>
 </h4>
 
 <h4>
   Inspired by
-  <a href="https://github.com/soumyajit4419/Portfolio" target="_blank">https://github.com/soumyajit4419/Portfolio</a>
+  <a href="https://github.com/henryodunze001/Portfolio" target="_blank">https://github.com/henryodunze001/Portfolio</a>
 </h4>
 
 ## Getting Started
 
-clone the project `git clone https://github.com/ezdev21/portfolio`
+clone the project `git clone https://github.com/henryodunze001/Portfolio`
 
 
 ## 🛠 Installation and Setup Instructions

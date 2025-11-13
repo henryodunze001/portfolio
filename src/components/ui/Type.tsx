@@ -7,7 +7,7 @@ function Type() {
         strings: [
           "Full-stack Web Developer",
           "Mobile App Developer",
-          "Freelancer",
+          "Blockchain Developer",
           "Open Source Contributor",
         ],
         autoStart: true,

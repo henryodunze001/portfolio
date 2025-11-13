@@ -48,8 +48,8 @@ export default function Experience() {
           <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
             <div className="p-5 my-10 text-white bg-transparent h-full transition-all duration-500 ease-linear shadow-[0_4px_5px_3px_rgba(119,53,136,0.459)]">
               <div>
-                <h2 className="font-bold text-2xl md:text-4xl my-2">HADDIS ART</h2>
-                <h6 className="my-2 max-md:text-md">Full-stack Developer Feb 2025 - Aug 2025</h6>
+                <h2 className="font-bold text-2xl md:text-4xl my-2">SPIRITAN PRESS</h2>
+                <h6 className="my-2 max-md:text-md">Full-stack Developer Sept 2025 - Oct 2025</h6>
                 <hr className="my-3 border-gray-300 border-t-3 opacity-25"/>
                 <ul className="p-0 font-extralight md:font-light text-sm md:text-lg text-left list-disc">
                   <li>Complete detailed programming and development tasks for front-end as well as challenging back-end servercode.                </li>
@@ -62,7 +62,7 @@ export default function Experience() {
               </div>
             </div>
           </motion.div>
-          <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
+          {/* <motion.div variants={variants} initial="initial" whileInView="animate" viewport={{ once: true }}  whileHover="hover" whileTap="tap" exit="exit">
             <div className="p-5 my-10 text-white bg-transparent h-full opacity-90 transition-all duration-500 ease-linear shadow-[0_4px_5px_3px_rgba(119,53,136,0.459)]">
               <div>
                 <h2 className="font-bold text-2xl md:text-4xl my-2">BIRITU DIGITAL SAVING AND COOP</h2>
@@ -124,7 +124,7 @@ export default function Experience() {
                 </ul>
               </div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </motion.section>

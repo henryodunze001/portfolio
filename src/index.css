@@ -16,15 +16,15 @@ body {
   font-size-adjust: 0.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  background-image: linear-gradient(to left, rgb(4, 127, 243), rgb(32, 32, 49));
 }
 
 .text-primary{
-  color: #c770f0 !important;
+  color: #70bbf0 !important;
 }
 
 .bg-primary{
-  background-color: #c770f0 !important;
+  background-color: #06f2ab !important;
 }
 
 /* --------- */
@@ -37,18 +37,18 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #f2f4f5;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(3, 252, 252, 0.959);
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
+  background: rgba(5, 232, 232, 0.911);
   border-radius: 12px;
 }
 
@@ -67,12 +67,12 @@ body {
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #70bbf0 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #b562d6 !important;
+  color: #70bbf0 !important;
 }
 
 @media (max-width: 767px) {

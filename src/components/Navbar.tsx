@@ -43,9 +43,9 @@ function NavBar() {
         <Link
           to="/"
           onClick={() => setIsOpen(false)}
-          className="text-[#c770f0] font-black text-4xl font-mono"
+          className="text-[#70bbf0] font-black text-4xl font-mono"
         >
-          &lt;E/&gt;
+          &lt;H/&gt;
         </Link>
 
         {/* Mobile Menu Button */}
@@ -91,8 +91,8 @@ function NavBar() {
                 setIsOpen(false);
                 setActiveKey(to);
               }}
-              className={`text-xl flex items-center gap-1 px-6 py-3 md:px-0 md:py-0 hover:text-[#c770f0] transition-all ${
-                activeKey === to ? "text-[#c770f0]" : ""
+              className={`text-xl flex items-center gap-1 px-6 py-3 md:px-0 md:py-0 hover:text-[#70bbf0] transition-all ${
+                activeKey === to ? "text-[#70bbf0]" : ""
               }`}
             >
               <span className="font-black">{icon}</span>
@@ -102,10 +102,10 @@ function NavBar() {
 
           {/* GitHub Button */}
           <a
-            href="https://github.com/ezdev21/Portfolio"
+            href="https://github.com/henryodunze001/Portfolio"
             target="_blank"
             rel="noreferrer"
-            className="inline-block gap-2 mt-2 md:mt-0 mx-6 md:mx-0 bg-[#934cce5e]  hover:bg-[#c770f0] text-white px-5 py-2 rounded-md transition-all"
+            className="inline-block gap-2 mt-2 md:mt-0 mx-6 md:mx-0 bg-[#70bbf0]  hover:bg-[#70faf0] text-white px-5 py-2 rounded-md transition-all"
           >
             <div className="flex items-center">
               <CgGitFork className="text-lg" />

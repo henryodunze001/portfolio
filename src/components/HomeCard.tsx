@@ -22,7 +22,7 @@ function Home2() {
               <br/>
               <br/>
               I’m a software developer by profession, driven by a passion for solving real-world problems and creating meaningful
-              solutions. With a strong foundation in both front-end and back-end development, I am adept at designing and
+              solutions. With a strong foundation in both back-end and front-end development, I am adept at designing and
               developing full-stack solutions that meet business requirements and exceed user expectations.
             </p>
           </div>
@@ -41,7 +41,7 @@ function Home2() {
             <ul className="relative pl-0 pt-4 flex justify-center space-x-10">
               <li>
                 <a
-                  href="mailto:ezradev21@gmail.com"
+                  href="mailto:henryodunze001@gmail.com"
                   rel="noreferrer"
                   className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
                 >
@@ -50,7 +50,7 @@ function Home2() {
               </li>
               <li>
                 <a
-                  href="https://github.com/ezdev21"
+                  href="https://github.com/henryodunze001"
                   target="_blank"
                   rel="noreferrer"
                   className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
@@ -60,7 +60,7 @@ function Home2() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/ezdev21/"
+                  href="https://www.linkedin.com/in/henryodunze/"
                   target="_blank"
                   rel="noreferrer"
                   className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
@@ -70,7 +70,7 @@ function Home2() {
               </li>
               <li>
                 <a
-                  href="https://t.me/ezdev21"
+                  href="https://t.me/morelifedey4u"
                   target="_blank"
                   rel="noreferrer"
                   className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
@@ -80,7 +80,7 @@ function Home2() {
               </li>
               <li>
                 <a
-                  href="https://x.com/ezdev21"
+                  href="https://x.com/PlutoOnChain"
                   target="_blank"
                   rel="noreferrer"
                   className="relative flex w-10 h-10 text-center text-xl text-[#111010] bg-[#fffffff7] rounded-full justify-center items-center leading-8 hover:text-[#87209e] hover:shadow-[0_0_5px_#87209e] hover:text-shadow-[0_0_2px_#87209e] transition duration-500 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-full before:bg-[#68187a] before:transition-transform before:duration-500 before:scale-90 before:-z-10 hover:before:scale-[1.1] hover:before:shadow-[0_0_15px_#801f95]"
