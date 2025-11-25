@@ -5,7 +5,7 @@
 <img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/f35403c9-82e0-4732-8df1-72810e93d574" />
 
 <h4>
-  Portfolio Website for Henry
+  Portfolio Website for Henry Odunze
   <a href="https://henryodunze.vercel.app/" target="_blank">https://henryodunze.vercel.app</a>
 </h4>
 
@@ -61,4 +61,4 @@ Distributed under the MIT License.
 
 <!-- CONTACT -->
 ## Contact
-Contact me here or by email ezradev21@gmail.com
+Contact me here or by email henryodunze001@gmail.com
