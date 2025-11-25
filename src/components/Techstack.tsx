@@ -1,42 +1,8 @@
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiJava,
-  DiLaravel,
-  DiDjango,
-  DiMysql,
-} from "react-icons/di";
-import {
-  SiFirebase,
-  SiNextdotjs,
-  SiPostgresql,
-  SiPhp,
-  SiDart,
-  SiTypescript,
-  SiCsharp,
-  SiFigma,
-  SiVuedotjs,
-  SiNuxtdotjs,
-  SiBootstrap,
-  SiTailwindcss,
-  SiAlpinedotjs,
-  SiSass,
-  SiLivewire,
-  SiGraphql,
-  SiFlutter,
-  SiQuasar,
-  SiGimp,
-  SiExpress,
-  SiNestjs
-} from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import techStack from "../utils/techstack";
 
 function Techstack() {
   return (
+<<<<<<< HEAD
   <div>
     <h1 className="text-white text-2xl md:text-4xl font-medium pt-2.5 text-center">
       Programming <strong className="text-primary">Language </strong>
@@ -157,6 +123,27 @@ function Techstack() {
       </div>
     </div> 
   </div>
+=======
+    <div className="grid md:grid-cols-2 gap-15">
+      {techStack.map((ts, index) => (
+        <div key={index}>
+          <h3 className="text-xl md:text-2xl font-medium pb-5 text-center">
+            {ts.title}
+          </h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 pb-3 md:pb-12">
+            {ts.skills.map((skill, index) => (
+              <div
+                key={index}
+                className="text-6xl py-5 border-2 border-[#45315a] card align-middle text-center rounded-md flex justify-center items-center overflow-hidden transition-all duration-400 ease-linear md:m-2.5 hover:overflow-hidden hover:scale-[1.05] hover:border-2 hover:border-[rgba(197,115,230,0.883)]"
+              >
+                {skill}
+              </div>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+>>>>>>> 5f298092a57cc7b6dc70c52f43496a3487d41e5e
   );
 }
 

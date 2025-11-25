@@ -25,7 +25,11 @@ function NavBar() {
   const navLinks = [
     { to: "/", icon: <AiOutlineHome />, label: "Home" },
     { to: "/about", icon: <AiOutlineUser />, label: "About" },
-    { to: "/projects", icon: <AiOutlineFundProjectionScreen />, label: "Projects" },
+    {
+      to: "/projects",
+      icon: <AiOutlineFundProjectionScreen />,
+      label: "Projects",
+    },
     { to: "/experience", icon: <RiBuilding2Line />, label: "Experience" },
     { to: "/resume", icon: <CgFileDocument />, label: "Resume" },
   ];
@@ -34,7 +38,7 @@ function NavBar() {
     <nav
       className={`fixed top-0 left-0 w-full z-50 py-3 px-12 transition-all duration-300 ${
         navColour
-          ? "bg-[#0A0416]/90 backdrop-blur-md shadow-md"
+          ? "bg-[#0A0416]/75 backdrop-blur-md shadow-md"
           : "bg-transparent"
       }`}
     >
@@ -43,15 +47,21 @@ function NavBar() {
         <Link
           to="/"
           onClick={() => setIsOpen(false)}
+<<<<<<< HEAD
           className="text-[#70bbf0] font-black text-4xl font-mono"
         >
           &lt;H/&gt;
+=======
+          className="text-primary-foreground font-black text-4xl font-mono"
+        >
+          &lt;👨‍💻/&gt;
+>>>>>>> 5f298092a57cc7b6dc70c52f43496a3487d41e5e
         </Link>
 
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="text-white font-bold md:hidden focus:outline-none"
+          className="font-bold md:hidden focus:outline-none"
         >
           <svg
             className="w-10 h-10"
@@ -81,7 +91,7 @@ function NavBar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } absolute md:static top-16 left-0 w-full md:w-auto bg-[#0A0416] md:bg-transparent md:flex md:items-center md:space-x-10 text-white text-sm font-medium transition-all py-3`}
+          } absolute md:static top-16 left-0 w-full md:w-auto bg-[#0A0416] md:bg-transparent md:flex md:items-center md:space-x-10 text-sm font-medium transition-all py-3`}
         >
           {navLinks.map(({ to, icon, label }) => (
             <Link
@@ -91,12 +101,20 @@ function NavBar() {
                 setIsOpen(false);
                 setActiveKey(to);
               }}
+<<<<<<< HEAD
               className={`text-xl flex items-center gap-1 px-6 py-3 md:px-0 md:py-0 hover:text-[#70bbf0] transition-all ${
                 activeKey === to ? "text-[#70bbf0]" : ""
               }`}
+=======
+              className={`relative text-xl flex items-center gap-1 px-6 py-3 md:px-0 md:py-0 hover:text-white
+                ${activeKey === to ? "text-primary-foreground md:after:w-full" : "after:w-0"}
+                hover:text-primary-foreground md:hover:after:w-full
+                after:content-[''] after:absolute after:left-0 after:-bottom-2 after:h-1 after:rounded-xl after:bg-[#c770f0] after:transition-all after:duration-700 after:ease-in-out
+              `}
+>>>>>>> 5f298092a57cc7b6dc70c52f43496a3487d41e5e
             >
               <span className="font-black">{icon}</span>
-              <span >{label}</span>
+              <span>{label}</span>
             </Link>
           ))}
 
@@ -105,7 +123,11 @@ function NavBar() {
             href="https://github.com/henryodunze001/Portfolio"
             target="_blank"
             rel="noreferrer"
+<<<<<<< HEAD
             className="inline-block gap-2 mt-2 md:mt-0 mx-6 md:mx-0 bg-[#70bbf0]  hover:bg-[#70faf0] text-white px-5 py-2 rounded-md transition-all"
+=======
+            className="inline-block gap-2 mt-2 md:mt-0 mx-6 md:mx-0 bg-[#934cce5e]  hover:opacity-75 px-5 py-2 rounded-md transition-all"
+>>>>>>> 5f298092a57cc7b6dc70c52f43496a3487d41e5e
           >
             <div className="flex items-center">
               <CgGitFork className="text-lg" />

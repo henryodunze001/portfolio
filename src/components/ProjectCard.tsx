@@ -6,11 +6,16 @@ import type { ProjectProps } from "../utils/projects";
 function ProjectCard(props: ProjectProps) {
   return (
     <motion.div
-        initial={props.order===3 ?  { opacity:0, scale: 0.5, x:'-15vw'} :  { opacity:0, scale: 0.5, y: '-30vh'} }
-        whileInView={{ opacity: 1, scale: 1, x:0, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1.5, delay: 0.5 }}
+      initial={
+        props.order === 3
+          ? { opacity: 0, scale: 0.5, x: 300 }
+          : { opacity: 0, scale: 0.5, y: 150 }
+      }
+      whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1.5, delay: 0.5 }}
     >
+<<<<<<< HEAD
     <div className="max-md:my-5 p-2 flex flex-col text-white bg-transparent h-full opacity-90 transition-all duration-500 ease-linear shadow-[0_4px_5px_3px_rgba(202, 200, 244, 0.95)]">
       <img src={props.imgPath} alt={props.title} loading="lazy" className="h-[200px] bg-cover rounded-sm"/>
       <div className="m-2">
@@ -29,35 +34,66 @@ function ProjectCard(props: ProjectProps) {
             </div>
           )}
         </div>
+=======
+      <div className="max-md:my-5 p-2 flex flex-col card h-full transition-all duration-500 ease-linear hover:scale-105">
+        <img
+          src={props.imgPath}
+          alt={props.title}
+          loading="lazy"
+          className="h-50 bg-cover rounded-sm grayscale-70 hover:grayscale-0"
+        />
+        <div className="m-2">
+          <h4 className="font-bold text-lg md:text-xl my-1">{props.title}</h4>
+          <p className="text-left max-md:text-sm max-md:font-light font-light">
+            {props.description}
+          </p>
+>>>>>>> 5f298092a57cc7b6dc70c52f43496a3487d41e5e
 
-        <div className="flex space-x-3 mt-3">
-        {/* If the component contains Github link and if it's not a Blog then, it will render the below component  */}
-        {!props.isBlog && props.ghLink && (
-          <button className="bg-primary py-1 px-3 rounded-sm">
-            <a className="text-white flex items-center space-x-1" href={props.ghLink} target="_blank">
-              <BsGithub />
-              <span>{props.isBlog ? "Blog" : "GitHub"}</span>
-            </a>
-          </button>
-        )}
+          <div className="my-2">
+            {/* these are the skills used for building the project*/}
+            {props.skills && (
+              <div className="flex gap-3 flex-wrap">
+                {props.skills.map((skill) => (
+                  <span className="bg-secondary py-1 px-2 rounded-sm text-xs">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
 
-        {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+          <div className="flex space-x-3 mt-3">
+            {/* If the component contains Github link and if it's not a Blog then, it will render the below component  */}
+            {!props.isBlog && props.ghLink && (
+              <button className="bg-secondary py-1 px-3 rounded-sm">
+                <a
+                  className="flex items-center space-x-1"
+                  href={props.ghLink}
+                  target="_blank"
+                >
+                  <BsGithub />
+                  <span>{props.isBlog ? "Blog" : "GitHub"}</span>
+                </a>
+              </button>
+            )}
 
-       {!props.isBlog && props.demoLink && (
-          <button className="bg-primary py-1 px-3 rounded-sm">
-          <a
-            className="text-white flex items-center space-x-2"
-            href={props.demoLink}
-            target="_blank"
-          >
-            <CgWebsite />
-            <span>Demo</span>
-          </a>
-          </button>
-        )}
+            {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+
+            {!props.isBlog && props.demoLink && (
+              <button className="bg-secondary py-1 px-3 rounded-sm">
+                <a
+                  className="flex items-center space-x-2"
+                  href={props.demoLink}
+                  target="_blank"
+                >
+                  <CgWebsite />
+                  <span>Demo</span>
+                </a>
+              </button>
+            )}
+          </div>
         </div>
       </div>
-    </div>
     </motion.div>
   );
 }

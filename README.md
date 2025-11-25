@@ -1,8 +1,16 @@
 # My Portfolio Website
 
-<img width="1920" height="1080" alt="Screenshot (45)" src="https://github.com/user-attachments/assets/b83de617-4e60-4339-8d08-30d3daade5b3" />
-<img width="1920" height="1080" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/42ad563c-3bae-4ebc-b3a2-7f03e3c307a0" />
-<img width="1920" height="1080" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/f35403c9-82e0-4732-8df1-72810e93d574" />
+<img width="1920" height="1080" alt="Screenshot (46)" src="https://github.com/user-attachments/assets/6bea4578-bab6-4c1c-8725-c22c64803816" />
+
+<img width="1920" height="1080" alt="Screenshot (47)" src="https://github.com/user-attachments/assets/ab2dfb11-348f-4239-b88b-594a49bd4a49" />
+
+<img width="1920" height="1080" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/97a35339-3bc2-4ece-9205-55d602d41e6f" />
+
+<img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/884c07b7-cc0a-4690-bdd1-e6148ea409df" />
+
+<img width="1920" height="1080" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/54e00181-734d-41d8-affa-5b59fee1e19f" />
+
+<img width="1920" height="1080" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/8b3d396d-ce47-43de-8470-251ff94662ea" />
 
 <h4>
   Portfolio Website for Henry Odunze
@@ -18,9 +26,7 @@
 
 clone the project `git clone https://github.com/henryodunze001/Portfolio`
 
-
 ## 🛠 Installation and Setup Instructions
-
 
 1. Installation: `npm install`
 
@@ -30,10 +36,9 @@ Runs the app in the development mode.\
 Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 The page will reload if you make edits.
 
-
 ## Configuring @tsparticles/react
 
-visit  tsparticles website
+visit tsparticles website
 
 <a href="https://particles.js.org/" target="_blank">https://particles.js.org/</a>
 
@@ -55,10 +60,17 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License.
 
 <!-- CONTACT -->
+
 ## Contact
+<<<<<<< HEAD
 Contact me here or by email henryodunze001@gmail.com
+=======
+
+Contact me here or by email ezradev21@gmail.com
+>>>>>>> 5f298092a57cc7b6dc70c52f43496a3487d41e5e
